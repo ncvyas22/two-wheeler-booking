@@ -24,6 +24,7 @@ pipeline {
             steps {
                 script {
                     mail(
+                        from: 'ncvyasjobs@gmail.com',
                         to: 'ncvyasjobs@gmail.com',
                         subject: "Approval Required: Two-Wheeler Build #${env.BUILD_NUMBER}",
                         body: """Hello Project Manager,

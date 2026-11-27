@@ -51,7 +51,7 @@ HTML_TEMPLATE = '''
 </head>
 <body>
     <div class="card">
-        <h2>Two-Wheeler [Live Choice Demo] [Choice-1 Staging Update] [Build-2: v2.0 Ahmedabad Edition] Live CI - Ahmedabad/CD Live CI/CD Booking (Compose Stack)</h2>
+        <h2>Two-Wheeler-choice-booking [Live Choice Demo] [Live Choice Demo] [Choice-1 Staging Update] [Build-2: v2.0 Ahmedabad Edition] Live CI - Ahmedabad/CD Live CI/CD Booking (Compose Stack)</h2>
         <form action="/add" method="POST">
             <div class="form-group"><label>Customer Name</label><input type="text" name="name" placeholder="Rahul Sharma" required></div>
             <div class="form-group"><label>Address</label><input type="text" name="address" placeholder="45 SG Highway, Ahmedabad" required></div>
